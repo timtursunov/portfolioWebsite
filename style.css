@@ -1,6 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Karla:ital,wght@0,200;0,300;0,400;1,200;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
+  font-family: IBM Plex Mono;
   background-color: #e05d37;
   color: #2d1b10;
+  height: 100vh;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.portfolio__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  text-align: left;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+.portfolio__paragraph {
+  font-weight: 300;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio__letter__green {
+  color: rgb(27, 161, 59);
+}
+
+.portfolio__list-description {
+  color: #0066cc;
+  border-bottom: 1px solid #005ab4;
 }
